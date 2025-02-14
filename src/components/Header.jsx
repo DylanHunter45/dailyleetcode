@@ -14,8 +14,8 @@ function Header() {
           <h1>Problem Forge</h1>
         </div>
         <div className="nav-right">
-          <a href="/daily">Link 2</a>
-          <a href="/random">Link 3</a>
+          <a href="/daily">Daily Problem</a>
+          <a href="/random">Problems</a>
         </div>
       </nav>
     </header>

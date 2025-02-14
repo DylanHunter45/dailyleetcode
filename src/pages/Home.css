@@ -1,0 +1,96 @@
+.problem-forge {
+  font-family: "Arial", sans-serif;
+  line-height: 1.6;
+}
+
+.intro h2 {
+  font-size: 2.5em;
+  margin-bottom: 15px;
+}
+.intro p {
+  font-size: 1.3em;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.features {
+  padding: 40px 0;
+}
+
+.features h2 {
+  font-size: 2.5em;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.features ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.features li {
+  font-size: 1.3em;
+  margin-bottom: 15px;
+}
+
+.cta {
+  padding: 40px 0;
+  text-align: center;
+}
+
+.cta h2 {
+  font-size: 2.5em;
+  margin-bottom: 20px;
+}
+
+.cta ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.cta li {
+  font-size: 1.3em;
+  margin-bottom: 15px;
+}
+
+.primary-btn {
+  background-color: #4caf50;
+  color: white;
+  padding: 15px 30px;
+  font-size: 1.2em;
+  text-decoration: none;
+  border-radius: 5px;
+  margin-top: 50px;
+  margin-right: 25px;
+  display: inline-block;
+}
+
+.primary-btn:hover {
+  background-color: #45a049;
+}
+
+/* Secondary Button */
+.secondary-btn {
+  background-color: #007bff;
+  color: white;
+  padding: 15px 30px;
+  font-size: 1.2em;
+  text-decoration: none;
+  border-radius: 5px;
+  margin-left: 25px;
+  margin-top: 50px;
+  display: inline-block;
+}
+
+.secondary-btn:hover {
+  background-color: #0056b3;
+}
+.cta .btn:hover {
+  background-color: #45a049;
+}
+
+.container {
+  width: 80%;
+  margin: 0 auto;
+  padding: 20px;
+}
