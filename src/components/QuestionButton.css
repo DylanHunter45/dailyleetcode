@@ -1,0 +1,15 @@
+.question-link-btn {
+  margin-top: 8px;
+  padding: 12px 24px;
+  font-size: 18px;
+  background-color: #4caf50;
+  color: white;
+  border: none;
+  border-radius: 12px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.question-link-btn:hover {
+  background-color: #45a049; /* Darker green when hovering */
+}

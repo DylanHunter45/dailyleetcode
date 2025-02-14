@@ -1,6 +1,7 @@
 import { useEffect, useState } from "react";
 import { getDailyProblem } from "../services/api";
 import DailyProblem from "../components/DailyProblem";
+import QuestionButton from "../components/QuestionButton";
 
 function Daily() {
   const [dailyProblem, setDailyProblem] = useState([]);
@@ -22,7 +23,12 @@ function Daily() {
     loadDailyProblem();
   }, []);
 
-  return <DailyProblem problem={dailyProblem.question} />;
+  return (
+    <div>
+      <QuestionButton questionLink={dailyProblem.questionLink} />
+      <DailyProblem props={dailyProblem} />
+    </div>
+  );
 }
 
 export default Daily;
