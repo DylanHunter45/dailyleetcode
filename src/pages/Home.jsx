@@ -64,11 +64,11 @@ function home() {
               practice.
             </li>
           </ul>
-          <a href="/random" className="btn primary-btn">
-            Start solving problems
-          </a>
           <a href="/daily" className="btn secondary-btn">
             Start the daily problem
+          </a>
+          <a href="/random" className="btn primary-btn">
+            Start solving problems
           </a>
         </div>
       </section>

@@ -1,10 +1,10 @@
 import "./DailyProblem.css";
-function DailyProblem({ props }) {
+function DailyProblem({ question }) {
   return (
     <div>
       <h2
         className="problem-card"
-        dangerouslySetInnerHTML={{ __html: props.question }}
+        dangerouslySetInnerHTML={{ __html: question }}
       />
     </div>
   );

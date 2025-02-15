@@ -26,7 +26,7 @@ function Daily() {
   return (
     <div>
       <QuestionButton questionLink={dailyProblem.questionLink} />
-      <DailyProblem props={dailyProblem} />
+      <DailyProblem question={dailyProblem.question} />
     </div>
   );
 }
